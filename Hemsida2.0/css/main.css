@@ -1,0 +1,839 @@
+/*Mobil vy reglerna fungerar innan de blir 700px*/
+/*
+font-family: 'Gilda Display', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'PT Sans', sans-serif;
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Lato';
+}
+body {
+    margin:0;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+  
+  h2 {
+    font-size: 20px; 
+}
+  
+  h3 {
+    font-size: 1.8em; 
+}
+  
+  h4 {
+    font-size: 1.25em; }
+  
+  h5 {
+    font-size: 1.125em; }
+
+  h6 {
+        font-size: 0.8em; ;
+    }
+  
+h1,h2, h3, h4, h5, h6{
+    font-family: 'Merriweather';
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color:#000;
+}
+
+p {
+    font-weight: 300;
+    margin-bottom: 1rem;
+    font-family: 'Lato'
+}
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+address {
+    font-style: normal;
+}
+
+ul {
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
+img {
+   max-width: 100%; 
+    height: auto;
+    vertical-align: middle;
+}
+.site-header .container{
+    margin: auto auto;
+}
+
+.headerbild{
+    display: block;
+    background-image:linear-gradient(to bottom right, #0000008e 20%, #dbcc7873 80% ), url("../images/image3.jpeg");
+    background-repeat: no-repeat;
+    background-position:  bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 420px;
+    padding: 0px 0 0px 0;
+}
+
+.entry{
+    padding: 60px 0 0px 0;
+}
+
+.entry-title{
+    padding: 0;
+}
+.tex1{
+    font-size: 40px;
+    color: white;
+}
+
+.entry-title .h2a, h6{
+    color: rgba(255, 255, 255, 0.466);
+}
+
+.search-box{
+    position: absolute;
+    top: 70%;
+    right: 3%;
+    background: inherit;
+    height: 30px;
+    border-radius: 40px;
+    padding:0px ;
+}
+.search-box:hover > .search-text{
+    width: 90px;
+}
+
+.search-box:hover > .search-btn{
+  background: rgba(190, 165, 82, 0.555);
+  color: #5a5a5a;
+}
+
+
+.search-text{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0 0 0 10px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    
+}
+.search-btn{
+    color:inherit;
+    float: right;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(219, 199, 107, 0.514);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.site-header {
+    position: relative;
+
+}
+.brand img {
+    max-width: 150px;
+    height: auto;
+    margin: 5px 20px;
+} 
+
+.toggle-menu {
+    color: inherit;
+    font-size: 2rem;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.site-navigation {
+    display: none;
+    position: absolute;
+    width: 100%;
+    margin: 0 0px 0 0px;
+    padding: 0px 0px;
+    z-index: 1000;
+    
+}
+.site-navigation ul {
+   margin-top: -0px;
+   margin-bottom: -0px;
+   margin-left: -15px;
+}
+.site-navigation ul, li {
+    list-style: none;
+}
+.site-navigation a {
+    background-color: rgba(180, 179, 179, 0.932);
+    padding: 10px 0px 10px 20px;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-family: 'Gilda Display', serif;
+    box-shadow: -5px 1px 10px #5a5a5a81;
+}
+
+.site-navigation a:hover {
+    color: #333;
+    background-color: rgba(230, 230, 230, 0.932);
+}
+.show {
+    display: block;
+}
+
+.copy{
+    display: inline;
+    margin: 0px 0 0 0;
+    padding: 30px 0 0 0 ;
+    font-family: 'lato';
+    font-size: 13px;
+}
+
+/*Om oss sidan*/
+
+.for{
+    display: grid;
+    grid-template-areas: "a" "b";
+}
+
+.form-b{
+    padding: 40px 0 40px 0;
+    grid-area: a;
+    width: 100%;
+}
+.form-b p{
+    padding: 20px 0 0px 0;
+}
+
+.w25 {
+    max-width: 040%;
+    float: right;
+    margin: 5px 10px 0px 5px;
+}
+
+.w30 {
+    margin: 5px 10px 0px 10px;
+    float: left;
+    max-width: 040%;
+}
+
+.wrap{
+    grid-area: b;
+    padding: 20px 20px ;
+    width: 100%;
+}
+.kon, .lable{
+    font-size: 15px;
+    text-align: left;
+    padding: 0;
+    margin: 20px 0 0px 0;
+    font-weight: 300;
+}
+input{
+    margin-top: 0px;
+    padding: 10px 0 10px 0;
+}
+
+label,
+input,
+textarea {
+    width: 100%;
+    color: inherit;
+}
+input[type="submit"] {
+    width: 25%;
+    margin: 10px 0px 0 10px;
+    display: block;
+}
+input:hover{
+    color: rgba(0, 0, 0, 0.151);
+}
+
+textarea{
+    margin: 0;
+    max-width: 60%;
+}
+.kontakt{
+    display: inline-block;
+    background-color: blue;
+}
+
+.box-con{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 10px 0 10px;
+    background-color: chartreuse;
+}
+.box-con img{
+    width: 30%;
+    border-radius: 50%;
+}
+
+.kontakt::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .con {
+    margin-top: 10px;
+    padding: 8px 10px 0 10px;
+}
+
+    
+    /*
+.column-kontakt{
+    display: inline-block;
+    margin: 10px 0 10px;
+    padding: 0px 4px;
+}
+.box-con{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.con {
+    margin-top: 10px;
+    padding: 8px 10px 0 10px;
+}
+/*.con .e, .a{
+    margin-top: 30px;
+}
+
+.con h5{
+    font-weight: 200;
+    font-size: 16px;
+}
+.con p{
+    padding:10px 0px;
+    font-weight: 300;
+}
+
+.box-con img{
+    width: 30%;
+    border-radius: 50%;
+  }
+
+
+ */
+.om-title h1, h2{
+      color: white;
+      text-shadow: 2px 1px 0px #303030;
+  }
+
+  .om-title h2{
+    color: rgba(255, 255, 255, 0.466);
+}
+.om-title{
+    display: block;
+    background-image:linear-gradient(to bottom right, #0000008e 20%, #dbcc7873 80% ), url("../images/image4.jpeg");
+    background-repeat: no-repeat;
+    background-position:  bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 350px;
+    padding: 150px 0 0 0;
+    border-radius: 0 0 100% 100% / 30%;
+}
+
+.om-title h2{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+}
+.delare{
+   color: rgba(255, 255, 255, 0.685);
+   max-width: 10%;
+   margin: 15px 0 -10px 45%;
+}
+
+.historia{
+    display: inline-block;
+     height: auto;
+     margin: 100px 0 0px 0;
+     padding: 5px 0px 20px 10px;
+ }
+.container {
+    position: relative;
+    margin: 0 auto ;
+}
+
+.column {
+    width: 100%;
+}
+
+
+.om{
+    margin: 100px 0 10px 0;
+    padding: 5px 30px 10px 30px;
+}
+
+.contact{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.site-footer {
+    padding: 20px 0;
+    background-color: rgba(34, 34, 34, 0.397);
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: -20px;
+    margin-top: 40px;
+}
+.site-footer a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.site-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    padding: 60px 0;
+}
+.google-map {
+    height: 300px;
+    padding: 0 30px;
+    margin-top: 10px;
+}
+.blockar{
+    text-align: center;
+    grid-template-areas: "b" "a";
+    display: grid;
+    padding: 20px 0;
+    width: 100%;
+    margin: 0px auto;
+}
+.blocks p{
+    padding: 15px 0 0 0;
+}
+.block-1 p {
+    color: #333;
+}
+.blocks{
+    padding: 10px 0px 10px 0px;
+    margin: 30px 0;
+}
+
+.block-1{
+    grid-area: a ;
+        box-shadow: 3px 0px 3px 0px #00000081;
+}
+.block-2{
+    grid-area: b ;
+
+}
+.block-4{
+    box-shadow: -3px 0px 5px 0px #00000060;
+}
+
+.linje{
+    border-bottom: 1px solid #c0c0c0;
+    width: 20%;
+    margin: 10px 0 0px 40% ;
+}
+
+.insta, .face{
+    display: block;
+    text-align: center;
+   margin: 0px;
+    font-size: 80px;
+  color: #c0c0cc;
+}
+.face:hover{
+    color: #233f9ba6;
+}
+.insta p,
+.face p{
+    font-size: 17px;
+}
+
+.contactt{
+    height: auto;
+}
+
+.contactt address,
+.contactt div {
+    margin-bottom: .5rem;
+}
+.contactt i {
+    margin-right: 1rem;
+}
+.social-links ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.social-links a {
+    font-size: 3rem;
+}
+.hog img{
+    display: none;
+    width: 40%;
+    padding: 60px 2% 10% 2%;
+    float: left;
+}
+.info{
+    display: inline-block;
+    margin: 20px 0px 0 0;
+}
+
+.van{
+    text-align: center;
+    float: left;
+    width: 50%;
+    padding: 0px 0px 0px 0px;
+}
+.info a{
+    text-decoration: none;
+}
+.info h6{
+    color: black;
+    padding: 10px 0px 0 0px;
+
+}
+.info p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.info i{
+    padding-top: 20px;
+}
+.mellan{
+    padding: 60px 0;
+}
+
+.cent{
+    text-align: center;
+    float: right;
+    width: 50%;
+    padding: 0px 0px 0px 0px;
+}
+.gall{
+    padding: 100px 0 0px 0;
+}
+
+.bokning{
+    margin: 0px 0 0 0px;
+    padding: 100px 0px 20px 0;
+}
+
+.bokning .delare{
+    color: black;
+
+}
+.bokin {
+    margin: 15px 0 0 0;
+ 
+}
+.bok {
+text-align: center;
+    padding: 20px 0px;
+
+}
+.bok p{
+    padding: 0 20px;
+}
+.bokning i{
+    padding: 10px 0 25px 0;
+    font-size: 40px;
+    color: #c0c0c0;
+}
+.bokning h6{
+    font-size: 20px;
+    text-align: center;
+}
+.fot{
+    padding: 10px 0px 0 0;
+    margin: 0 130px;
+    border-bottom: 1px inset #d4d4d465;
+}
+
+.social-links{
+    margin-top: 20px;
+    text-align: center;
+}
+.links{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.links li{
+    display: inline-block;
+}
+
+.links a{
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: lato;
+}
+
+.fa-facebook,
+.fa-instagram {
+    color: #c0c0c0;
+    transition: transform .4s;
+}
+
+.fa-facebook:hover{
+    color: #1c4397ad;
+}
+.fa-instagram:hover {
+    color:#b43063a4;
+}
+@media (max-width: 768px){
+.ro,.co, .con{
+    display: none;
+}
+}
+
+.mySlides {
+    display: none
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.do{
+    margin-top: -20px;
+    position: absolute;
+    width: 100%;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0px 0px 0px 0;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.laser{
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.laser img{
+    width: 60%;
+}
+.la{
+    margin: 20px 0 0 0;
+}
+
+.laser-h .laser-in{
+    margin: 25px 0 1px 0;
+}
+.laser-in{
+    margin: 25px 0;
+}
+
+.laserinfo{
+    display: inline-block;
+    margin: 100px 0 0 0;
+    text-align: center;
+}
+.laserinfo p {
+    padding: 0 10px;
+}
+.laserinfo2{
+    margin: 60px 0 0 0;
+    float: left;
+    width: 50%;
+}
+.laserinfo img{
+  display: none;
+}
+.laserinfo3{
+    margin: 60px 0 0 0;
+    float: right;
+    width: 50%;
+}
+.las .mellan{
+    padding: 50px 0;
+}
+.laserinfo i {
+    font-size: 30px;
+}
+.tatto{
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+}
+.tatto p{
+    margin: 20px 0 0 0;
+}
+
+.landning h1{
+    padding-top: 30px;
+    color: white;
+    text-shadow: 2px 1px 0px #303030;
+}
+.landning h6{
+    margin-top: 20px;
+}
+.lanbox p {
+    margin-top: 20px;
+    padding: 50px 100px 5% 100px;
+}
+.btn-lan{
+    display: inline;
+    background-color: bisque;
+    margin: 0px 40%;
+}
+.btn-land{
+    padding: 12px;
+}
+
+.landning h2{
+  color: rgba(255, 255, 255, 0.774);
+}
+.landning{
+  display: block;
+  background-image:linear-gradient(to bottom right, #0000008e 20%, #dbcc7873 80% ), url("../images/image3.jpeg");
+  background-repeat: no-repeat;
+  background-position:  bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  height: 100vh;
+  padding: 150px 0 0% 0;
+}
+.lanbox{
+    background-color: rgba(214, 214, 214, 0.473);
+    margin: 0 10%;
+    height: 80%;
+    border: 5px ridge #74747421;
+}
+.site-main .container{
+    margin: 100px auto 0 auto;
+}
+
+.behandlingar{
+    height: 400px;
+    display:block;
+}
+.tatubort{
+    margin-top: 40px;
+}
+.tatubort h4{
+    font-size: 22px;
+}
+.tatubort p,h4, .peel h4, p{
+text-align: center;
+}
+.peel{
+    margin-top: 40px;
+}
+
+.tatusit{
+    margin-top: 100px;
+    width: 100%;
+    display: inline-block;
+}
+.tatusit h6 {
+    color: rgba(0, 0, 0, 0.651);
+}
+.tatusit p{
+    padding: 20px 0 ;
+    text-align: center;
+}
+.lorem{
+    padding: 40px 0;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Priser</title>
+        <meta name="description" content="Övningssida.">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@200;400&family=PT+Sans&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" media="(min-width:768px)" href="css/tablet.css">
+        <link rel="stylesheet" media="(min-width:960px)" href="css/laptop.css">
+        <link rel="stylesheet" media="(min-width:1200px)" href="css/desktop.css">
+        
+    </head>
+    <body>
+        <a href="#to-content"><span class="sr-only">Hoppa till innehållet</span></a>
+        <div id="top-of-page" class="site">
+            
+            <header class="site-header">
+                <div class="container">
+                    <div class="brand">
+                        <a href="index.html"><img class="logo" src="images/tat.png" alt=""></a>
+                    </div>
+                    <a class="btn toggle-menu" href="#"><i class="fas fa-bars fa-fw"></i></a>
+                    <nav class="site-navigation">
+                        <ul>
+                            <li><a class="back"href="behandlingar.html">Behandlingar</a></li>
+                            <li><a class="back" href="priser.html">Priser</a></li>
+                            <li><a class="back"href="kontakt.html">Kontakta oss</a></li>
+                            <li><a class="back"href="om-oss.html">Om oss</a></li>
+                        </ul>
+                    </nav>
+
+                    <form action="/index.html">
+                        <div class="search-box">
+                            
+                            <input type="text" class="search-text" name="search" placeholder="Sök">
+                            <a href="#" class="search-btn">
+                                <i class="fas fa-search"></i>
+                            </a>
+                       
+                        </div>
+                    </form>
+                </div>
+            </header>
+            <main class="site-main" id="to-content">
+
+                <div class="om-title">
+                    <h1>Priser</h1>
+                    <h6>Alltid gratis konsultation</h6>
+                    <hr class="delare">
+                </div>
+
+                <div class="container">
+    
+                        <div class="behandlingar">
+                            <h3>Laserbehandlingar</h3>
+                            <hr class="delare">
+
+                            <div class="tatubort">
+                                <h4>tatueringsbortagning:</h4>
+                                <p>2x2 - 500kr</p>
+                                <p>5x5 - 1000kr</p>
+                                <p>10x10 - 1500kr</p>
+                                <p>15x15 - 2500kr</p>
+                                <p>20x20 - 3000kr</p>
+                            </div>
+                            <div class="peel">
+                                <h4>hollywood/ carboon peeling:</h4>
+                                <p>1250kr per sittning</p>
+                            </div>
+                            
+                        </div>
+                        <div class="tatusit">
+                            <h3>Tatueringspriser</h3>
+                            <h6>Beroende på storlek så kan priset variera</h6>
+                            <hr class="delare">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, aspernatur.</p>
+                        </div>
+                        
+
+                       
+                </div>
+            </main>
+
+            <footer class="site-footer">
+                    <div class="row">                    
+                        <div class="column contact">
+
+                            <div class="column links">
+
+                                <ul>
+                                    <li><a href="behandlingar.html">Behandlingar</a></li>
+                                    <li><a href="priser.html">Priser</a></li>
+                                    <li><a href="kontakt.html">Kontakta oss</a></li>
+                                    <li><a href="om-oss.html">Om oss</a></li>
+                                </ul>
+
+                            </div>
+
+                            <div class="column social-links">
+                                
+                                <ul>
+                                    <li><a href="https://www.facebook.com/East-Tattoo-1837562749620155"><i class="fab fa-facebook fa-fw "></i><span class="sr-only">Facebook</span></a></li>
+                                    <li><a href="https://www.instagram.com/easttattoolaser/"><i class="fab fa-instagram fa-fw"></i><span class="sr-only">Instagram</span></a></li>                        
+                                </ul>
+                            </div>
+                            <div class="copy">
+                            &copy; East tattoo AB
+                            </div>
+
+                        </div>
+                        
+                       
+                    </div>
+
+        
+            </footer>
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script>
+            (function($){
+                $('.toggle-menu').click( function() {
+                    $('.site-navigation').toggleClass('show');
+                });
+            })(jQuery);
+          
+        </script>
+    </body>
+</html>

@@ -1,0 +1,184 @@
+
+/* reglerna fungerar innan det blir 970px*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.toggle-menu {
+    display: none;
+}
+
+.site-header .container {
+    max-width: 100%;
+    margin: 0;
+    padding: 30px;
+    list-style: none;
+    text-align: center;
+}
+.site-navigation .back{
+    background-color:transparent;
+}
+
+.site-navigation {
+    left: 6px;
+    display: inline-block;
+    position:  relative;
+    width: 85%;
+    padding: 0 0 0 0px;
+    margin: 30px 0px;
+    background-color: transparent;
+}
+.site-navigation a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    transition: transform .2s;
+    font-size: 20px;
+    background-color: rgba(180, 179, 179, 0.397);
+}
+.site-navigation a:hover {
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.26);
+}
+.site-navigation ul, li {
+    margin: 0 0px 0 0px;
+}
+
+
+.site-navigation ul{
+    list-style: none;
+    margin-left: -20px;
+}
+
+.site-navigation li {
+    display: inline-block;
+}
+
+.site-navigation ul li:nth-child(1){
+    float: left;
+}
+.site-navigation ul li:nth-child(2){
+    float: left;
+}
+
+.site-navigation ul li:nth-child(3){
+    float: right;
+}
+.site-navigation ul li:nth-child(4){
+    float: right;
+}
+
+.con {
+    height: 270px;
+}
+
+.brand img {
+    position: absolute;
+    left: 48%;
+    top: 0%;
+    content: "";
+    margin-left: -50px;
+} 
+
+.search-box{
+    top: 73%;
+    right: 10%;
+}
+
+.search-box:hover > .search-btn{
+  background: rgba(190, 165, 82, 0.555);
+  color: #c0c0c0;
+}
+
+.kontakt{
+    padding: 0 20px;
+    margin: 0 -60px;
+}
+
+.alignright {
+    float: right;
+}
+
+.alignleft {
+    float: left;
+}
+.w25 {
+    max-width: 025%;
+    float: right;
+    margin: 5px 0 -4px 0px;
+}
+
+.block-1{
+margin-left: -60px;
+}
+.block-2{
+ margin-right: -60px;
+}
+.info{
+    display: inline-block;
+    margin: 0px -60px;
+}
+.mellan{
+    padding: 95px 0;
+}
+.info p{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.info h6{
+    font-size: 18px;
+}
+
+.bokning{
+    padding: 50px 0px 20px 0;
+    margin: 0 -60px;
+}
+.laser{
+
+    margin: 20px -60px 0 -60px;
+
+}
+
+.van{
+    margin-top: 50px;
+    width: 32%;
+ 
+}
+.cent{
+    margin-top: 50px;
+    width: 32%;
+}
+
+.hog img{
+    padding: 10% 0;
+    width: 36%;
+ 
+}
+.gall{
+    padding: 120px 0 40px 0;
+}
+.tatto{
+    margin: 100px -60px 0 -60px;
+}
+.behandlingar{
+    height: 400px;
+    display:block;
+    margin:auto -60px 0 -60px;
+}
+.wrap{
+    margin: 0 0 0 -60px;
+}
+.form-b{
+    margin-left: 60px;
+}
+.btn-lan{
+    margin: 0px 44%;
+}
