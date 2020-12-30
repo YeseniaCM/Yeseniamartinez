@@ -84,7 +84,7 @@ img {
 
 .headerbild{
     display: block;
-    background-image:linear-gradient(to bottom right, #0000008e 20%, #dbcc7873 80% ), url("../images/image3.jpeg");
+    background-image:linear-gradient(to bottom right, #0000008e 20%, #dbcc7873 80% ), url("image3.jpeg");
     background-repeat: no-repeat;
     background-position:  bottom center;
     background-size: cover;
@@ -360,7 +360,7 @@ textarea{
 }
 .om-title{
     display: block;
-    background-image:linear-gradient(to bottom right, #0000008e 20%, #dbcc7873 80% ), url("../images/image4.jpeg");
+    background-image:linear-gradient(to bottom right, #0000008e 20%, #dbcc7873 80% ), url("image4.jpeg");
     background-repeat: no-repeat;
     background-position:  bottom center;
     background-size: cover;
@@ -786,7 +786,7 @@ text-align: center;
 }
 .landning{
   display: block;
-  background-image:linear-gradient(to bottom right, #0000008e 20%, #dbcc7873 80% ), url("../images/image3.jpeg");
+  background-image:linear-gradient(to bottom right, #0000008e 20%, #dbcc7873 80% ), url("image3.jpeg");
   background-repeat: no-repeat;
   background-position:  bottom center;
   background-size: cover;
